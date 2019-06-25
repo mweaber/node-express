@@ -1,0 +1,26 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Attempting to make a node/express page that'll eventually connect to a mongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mweaber/node-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mweaber/node-express/issues"
+  },
+  "homepage": "https://github.com/mweaber/node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
